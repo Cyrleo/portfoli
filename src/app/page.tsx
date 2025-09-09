@@ -44,27 +44,27 @@ export default function Home() {
       />
       <Column fillWidth horizontal="center" gap="m">
         <Column maxWidth="s" horizontal="center" align="center">
-          {home.featured.display && (
-            <RevealFx
-              fillWidth
-              horizontal="center"
-              paddingTop="16"
-              paddingBottom="32"
-              paddingLeft="12"
-            >
-              <Badge
-                background="brand-alpha-weak"
-                paddingX="12"
-                paddingY="4"
-                onBackground="neutral-strong"
-                textVariant="label-default-s"
-                arrow={false}
-                href={home.featured.href}
-              >
-                <Row paddingY="2">{home.featured.title}</Row>
-              </Badge>
-            </RevealFx>
-          )}
+          {/*{home.featured.display && (*/}
+          {/*  <RevealFx*/}
+          {/*    fillWidth*/}
+          {/*    horizontal="center"*/}
+          {/*    paddingTop="16"*/}
+          {/*    paddingBottom="32"*/}
+          {/*    paddingLeft="12"*/}
+          {/*  >*/}
+          {/*    <Badge*/}
+          {/*      background="brand-alpha-weak"*/}
+          {/*      paddingX="12"*/}
+          {/*      paddingY="4"*/}
+          {/*      onBackground="neutral-strong"*/}
+          {/*      textVariant="label-default-s"*/}
+          {/*      arrow={false}*/}
+          {/*      href={home.featured.href}*/}
+          {/*    >*/}
+          {/*      <Row paddingY="2">{home.featured.title}</Row>*/}
+          {/*    </Badge>*/}
+          {/*  </RevealFx>*/}
+          {/*)}*/}
           <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="16">
             <Heading wrap="balance" variant="display-strong-l">
               {home.headline}
@@ -103,28 +103,28 @@ export default function Home() {
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
       </RevealFx>
-      {routes["/blog"] && (
-        <Column fillWidth gap="24" marginBottom="l">
-          <Row fillWidth paddingRight="64">
-            <Line maxWidth={48} />
-          </Row>
-          <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>
-            <Row flex={1} paddingLeft="l" paddingTop="24">
-              <Heading as="h2" variant="display-strong-xs" wrap="balance">
-                Latest from the blog
-              </Heading>
-            </Row>
-            <Row flex={3} paddingX="20">
-              <Posts range={[1, 2]} columns="2" />
-            </Row>
-          </Row>
-          <Row fillWidth paddingLeft="64" horizontal="end">
-            <Line maxWidth={48} />
-          </Row>
-        </Column>
-      )}
-      <Projects range={[2]} />
-      <Mailchimp />
+      {/*{routes["/blog"] && (*/}
+      {/*  <Column fillWidth gap="24" marginBottom="l">*/}
+      {/*    <Row fillWidth paddingRight="64">*/}
+      {/*      <Line maxWidth={48} />*/}
+      {/*    </Row>*/}
+      {/*    <Row fillWidth gap="24" marginTop="40" s={{ direction: "column" }}>*/}
+      {/*      <Row flex={1} paddingLeft="l" paddingTop="24">*/}
+      {/*        <Heading as="h2" variant="display-strong-xs" wrap="balance">*/}
+      {/*          Latest from the blog*/}
+      {/*        </Heading>*/}
+      {/*      </Row>*/}
+      {/*      <Row flex={3} paddingX="20">*/}
+      {/*        <Posts range={[1, 2]} columns="2" />*/}
+      {/*      </Row>*/}
+      {/*    </Row>*/}
+      {/*    <Row fillWidth paddingLeft="64" horizontal="end">*/}
+      {/*      <Line maxWidth={48} />*/}
+      {/*    </Row>*/}
+      {/*  </Column>*/}
+      {/*)}*/}
+      {/*<Projects range={[2]} />*/}
+      {/*<Mailchimp />*/}
     </Column>
   );
 }
