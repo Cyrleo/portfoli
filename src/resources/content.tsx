@@ -2,20 +2,25 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Leo",
+  lastName: "Megnigbeto",
+  name: `Leo Megnigbeto`,
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "leomegnigbeto@gmail.com",
+  location: "Africa/Porto-Novo", // IANA time zone for Benin (Cotonou uses 'Africa/Porto-Novo')
+  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  description: (
+    <>
+      I occasionally write about design, technology, and share thoughts on the intersection of
+      creativity and engineering.
+    </>
+  ),
 };
 
 const social: Social = [
@@ -24,17 +29,17 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Cyrleo",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://linkedin.com/in/leo-megnigbeto",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "X",
+    icon: "x",
+    link: "https://x.com/cyrleo6",
   },
   {
     name: "Email",
@@ -49,7 +54,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Software engineer and builder</>,
   featured: {
     display: true,
     title: (
@@ -65,14 +70,8 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Leo, a software engineer, I craft performant
+      <br /> web and mobile solutions and build my own projects.
     </>
   ),
 };
@@ -98,9 +97,8 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+                A passionate and solution-oriented Full Stack & Mobile Developer with 1 year of experience designing and building modern, high-performance, and custom applications. Specialized in Python, Django, Laravel, React, Next.js, and Flutter, I deliver complete, optimized, and scalable web and mobile projects. I also manage Linux web servers, ensuring security, deployment, and performance. As a freelance developer, I am rigorous, curious, and always ready to take on new tech challenges.
+
       </>
     ),
   },
@@ -109,41 +107,37 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Unir International",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Web Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Modernized an archive management platform and integrated a markets module..
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Integrated AI into the platform to improve document indexing and analysis.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "GestArch Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "HougnieLab",
+        timeframe: "2024",
+        role: "Web Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed a management platform for schools and training centers of all types.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed a normalized invoice generation platform tailored for small businesses.
           </>,
         ],
         images: [],
@@ -155,13 +149,10 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "Le Faucon High School",
         description: <>Studied software engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+
     ],
   },
   technical: {
@@ -170,15 +161,7 @@ const about: About = {
     skills: [
       {
         title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
+        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -197,23 +180,7 @@ const about: About = {
       },
       {
         title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -223,7 +190,61 @@ const about: About = {
             height: 9,
           },
         ],
-      },  
+      },
+      {
+            title: "Frontend Development",
+            description: <>Proficient in React, TypeScript, and modern frontend tools. Experience with responsive design
+                and UI frameworks.</>,
+            images: [],
+        },
+        {
+            title: "Backend Development",
+            description: <>Expert in Python/Django and PHP/Laravel frameworks. Strong understanding of RESTful APIs and
+                microservices.</>,
+            images: [],
+        },
+        {
+            title: "Mobile Development",
+            description: <>Skilled in Flutter for cross-platform mobile app development. Experience with native APIs and
+                responsive layouts.</>,
+            images: [],
+        },
+        {
+            title: "Databases & DevOps",
+            description: <>Experienced with PostgreSQL, MySQL, and MongoDB. Proficient in Docker, CI/CD, and Linux
+                server administration.</>,
+            images: [],
+        },
+        {
+            title: "Tools & Collaboration",
+            description: <>Version control with Git, project management with Jira, and collaboration through
+                GitHub/GitLab.</>,
+            images: [],
+        },
+        {
+            title: "Testing & Quality Assurance",
+            description: <>Experience with Jest, React Testing Library, and Cypress for frontend testing.
+                Implementation of unit and integration tests.</>,
+            images: [],
+        },
+        {
+            title: "UI/UX Design",
+            description: <>Skilled in Adobe XD, Sketch, and design systems. Focus on creating intuitive and
+                accessible user interfaces.</>,
+            images: [],
+        },
+        {
+            title: "Cloud Services",
+            description: <>Proficient with AWS, Google Cloud Platform, and Azure. Experience with serverless
+                architectures and cloud deployment.</>,
+            images: [],
+        },
+        {
+            title: "API Development",
+            description: <>Strong expertise in RESTful API design, GraphQL, and WebSocket implementations for
+                real-time applications.</>,
+            images: [],
+        }
     ],
   },
 };
