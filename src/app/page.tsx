@@ -103,7 +103,7 @@ export default function Home() {
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
       </RevealFx>
-      {/*{routes["/blog"] && (*/}
+      {/* {routes["/blog"] && (*/}
       {/*  <Column fillWidth gap="24" marginBottom="l">*/}
       {/*    <Row fillWidth paddingRight="64">*/}
       {/*      <Line maxWidth={48} />*/}
@@ -124,7 +124,7 @@ export default function Home() {
       {/*  </Column>*/}
       {/*)}*/}
       {/*<Projects range={[2]} />*/}
-      {/*<Mailchimp />*/}
+      {/*<Mailchimp /> */}
     </Column>
   );
 }
