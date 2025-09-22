@@ -26,6 +26,7 @@ export const galleryManifest = [
   { src: "/images/gallery/JCI_7.webp", alt: "JCI (Concours régional)", type: "image", width: 5898, height: 3862, orientation: "horizontal" },
   { src: "/images/gallery/JCI_8.webp", alt: "JCI (Concours régional)", type: "image", width: 5315, height: 3862, orientation: "horizontal" },
   { src: "/images/gallery/JCI_9.webp", alt: "JCI (Concours régional)", type: "image", width: 6084, height: 3862, orientation: "horizontal" },
+
   // Videos
   { src: "/images/gallery/Hackacthon_Celtiis_2024_1.mp4", alt: "Hackathon Celtiis", type: "video", width: 1920, height: 864, orientation: "horizontal" },
   { src: "/images/gallery/Hackacthon_Celtiis_2024_10.mp4", alt: "Hackathon Celtiis", type: "video", width: 464, height: 848, orientation: "vertical" },
