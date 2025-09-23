@@ -223,27 +223,27 @@ const about: About = {
                 GitHub/GitLab.</>,
             images: [],
         },
-        {
-            title: "Testing & Quality Assurance",
-            description: <>Experience with Jest, React Testing Library, and Cypress for frontend testing.
-                Implementation of unit and integration tests.</>,
-            images: [],
-        },
-        {
-            title: "UI/UX Design",
-            description: <>Skilled in Adobe XD, Sketch, and design systems. Focus on creating intuitive and
-                accessible user interfaces.</>,
-            images: [],
-        },
-        {
-            title: "Cloud Services",
-            description: <>Proficient with AWS, Google Cloud Platform, and Azure. Experience with serverless
-                architectures and cloud deployment.</>,
-            images: [],
-        },
+        // {
+        //     title: "Testing & Quality Assurance",
+        //     description: <>Experience with Jest, React Testing Library, and Cypress for frontend testing.
+        //         Implementation of unit and integration tests.</>,
+        //     images: [],
+        // },
+        // {
+        //     title: "UI/UX Design",
+        //     description: <>Skilled in Adobe XD, Sketch, and design systems. Focus on creating intuitive and
+        //         accessible user interfaces.</>,
+        //     images: [],
+        // },
+        // {
+        //     title: "Cloud Services",
+        //     description: <>Proficient with AWS, Google Cloud Platform, and Azure. Experience with serverless
+        //         architectures and cloud deployment.</>,
+        //     images: [],
+        // },
         {
             title: "API Development",
-            description: <>Strong expertise in RESTful API design, GraphQL, and WebSocket implementations for
+            description: <>RESTful API design, GraphQL, and WebSocket implementations for
                 real-time applications.</>,
             images: [],
         }
