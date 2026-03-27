@@ -98,10 +98,10 @@ const about: About = {
     display: true,
     title: "Introduction",
     description: (
-      <>
-                A passionate and solution-oriented Full Stack & Mobile Developer with 1 year of experience designing and building modern, high-performance, and custom applications. Specialized in Python, Django, Laravel, React, Next.js, and Flutter, I deliver complete, optimized, and scalable web and mobile projects. I also manage Linux web servers, ensuring security, deployment, and performance. As a freelance developer, I am rigorous, curious, and always ready to take on new tech challenges.
+        <>
+          A passionate and solution-oriented Full Stack & Mobile Developer with 1 year of experience designing and building modern, high-performance, and custom applications. Specialized in Python, Django, Laravel, React, Next.js, and Flutter, I deliver complete, optimized, and scalable web and mobile projects. I also manage Linux web servers, ensuring security, deployment, and performance. As a freelance developer, I am rigorous, curious, and always ready to take on new tech challenges.
 
-      </>
+        </>
     ),
   },
   work: {
@@ -194,59 +194,59 @@ const about: About = {
         ],
       },
       {
-            title: "Frontend Development",
-            description: <>Proficient in React, TypeScript, and modern frontend tools. Experience with responsive design
-                and UI frameworks.</>,
-            images: [],
-        },
-        {
-            title: "Backend Development",
-            description: <>Expert in Python/Django and PHP/Laravel frameworks. Strong understanding of RESTful APIs and
-                microservices.</>,
-            images: [],
-        },
-        {
-            title: "Mobile Development",
-            description: <>Skilled in Flutter for cross-platform mobile app development. Experience with native APIs and
-                responsive layouts.</>,
-            images: [],
-        },
-        {
-            title: "Databases & DevOps",
-            description: <>Experienced with PostgreSQL, MySQL, and MongoDB. Proficient in Docker, CI/CD, and Linux
-                server administration.</>,
-            images: [],
-        },
-        {
-            title: "Tools & Collaboration",
-            description: <>Version control with Git, project management with Jira, and collaboration through
-                GitHub/GitLab.</>,
-            images: [],
-        },
-        // {
-        //     title: "Testing & Quality Assurance",
-        //     description: <>Experience with Jest, React Testing Library, and Cypress for frontend testing.
-        //         Implementation of unit and integration tests.</>,
-        //     images: [],
-        // },
-        // {
-        //     title: "UI/UX Design",
-        //     description: <>Skilled in Adobe XD, Sketch, and design systems. Focus on creating intuitive and
-        //         accessible user interfaces.</>,
-        //     images: [],
-        // },
-        // {
-        //     title: "Cloud Services",
-        //     description: <>Proficient with AWS, Google Cloud Platform, and Azure. Experience with serverless
-        //         architectures and cloud deployment.</>,
-        //     images: [],
-        // },
-        {
-            title: "API Development",
-            description: <>RESTful API design, GraphQL, and WebSocket implementations for
-                real-time applications.</>,
-            images: [],
-        }
+        title: "Frontend Development",
+        description: <>Proficient in React, TypeScript, and modern frontend tools. Experience with responsive design
+          and UI frameworks.</>,
+        images: [],
+      },
+      {
+        title: "Backend Development",
+        description: <>Expert in Python/Django and PHP/Laravel frameworks. Strong understanding of RESTful APIs and
+          microservices.</>,
+        images: [],
+      },
+      {
+        title: "Mobile Development",
+        description: <>Skilled in Flutter for cross-platform mobile app development. Experience with native APIs and
+          responsive layouts.</>,
+        images: [],
+      },
+      {
+        title: "Databases & DevOps",
+        description: <>Experienced with PostgreSQL, MySQL, and MongoDB. Proficient in Docker, CI/CD, and Linux
+          server administration.</>,
+        images: [],
+      },
+      {
+        title: "Tools & Collaboration",
+        description: <>Version control with Git, project management with Jira, and collaboration through
+          GitHub/GitLab.</>,
+        images: [],
+      },
+      // {
+      //     title: "Testing & Quality Assurance",
+      //     description: <>Experience with Jest, React Testing Library, and Cypress for frontend testing.
+      //         Implementation of unit and integration tests.</>,
+      //     images: [],
+      // },
+      // {
+      //     title: "UI/UX Design",
+      //     description: <>Skilled in Adobe XD, Sketch, and design systems. Focus on creating intuitive and
+      //         accessible user interfaces.</>,
+      //     images: [],
+      // },
+      // {
+      //     title: "Cloud Services",
+      //     description: <>Proficient with AWS, Google Cloud Platform, and Azure. Experience with serverless
+      //         architectures and cloud deployment.</>,
+      //     images: [],
+      // },
+      {
+        title: "API Development",
+        description: <>RESTful API design, GraphQL, and WebSocket implementations for
+          real-time applications.</>,
+        images: [],
+      }
     ],
   },
 };

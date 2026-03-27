@@ -14,7 +14,7 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+const baseURL: string = "https://cyrleo.vercel.app";
 
 const routes: RoutesConfig = {
   "/": true,
@@ -206,10 +206,10 @@ const socialSharing: SocialSharingConfig = {
   platforms: {
     x: true,
     linkedin: true,
-    facebook: false,
+    facebook: true,
     pinterest: false,
-    whatsapp: false,
-    reddit: false,
+    whatsapp: true,
+    reddit: true,
     telegram: false,
     email: true,
     copyLink: true,
